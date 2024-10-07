@@ -1,0 +1,13 @@
+import ReactDOM from 'react-dom/client' 
+import pic from './images/dhawan.jpg'   
+const txt ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0z7q0oiI_yLptc9Gz8g8WAkoWtWjZdibGPg&s"
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <>
+   <img src={txt} alt=""></img>
+<br/>
+   <img src={pic} alt=""></img>
+   
+    </>
+);
+

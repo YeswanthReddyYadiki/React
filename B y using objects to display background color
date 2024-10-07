@@ -1,0 +1,43 @@
+import ReactDOM from 'react-dom/client' 
+import  '../node_modules/bootstrap/dist/css/bootstrap.css'
+
+let x=prompt("Enter a color")
+var clr={
+    fname:'bg-danger',
+    lname:'bg-success',
+    place:'bg-info',
+    age:'bg-dark'
+}
+let result;
+if(x=='Blue'){
+    result=clr.fname
+
+}
+else if(x=='Red'){
+    result=clr.lname
+
+}
+else if(x=='Yellow'){
+    result=clr.place
+     
+}
+else{
+    result=clr.age
+}
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <>   
+   <h2 className={result}>Yeswanth</h2>
+   </>
+);
+                                                                                                                                             
+
+
+
+
+
+
+
+

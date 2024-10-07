@@ -1,0 +1,18 @@
+import ReactDOM from 'react-dom/client' 
+import txt from './images/dhawan.jpg'
+import  '../node_modules/bootstrap/dist/css/bootstrap.css'
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <>
+<h1 className='text-danger text-center bg-black p-5'style={{fontSize:100}}>Bootstrap</h1>
+<img src={txt} alt=""/>
+<a href='https://www.google.com/maps/@17.4289406,78.4332163,12z?entry=ttu'>yeswanth</a>
+    </>
+);
+
+
+
+
+
+
+

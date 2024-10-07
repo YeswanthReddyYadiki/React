@@ -1,0 +1,16 @@
+import ReactDOM from 'react-dom/client'
+
+var marks=prompt("Enter your Marks")
+var result;
+if(marks<=35){
+    result="You are Failed"
+}
+else{
+    result="you Passed"
+}
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <>
+ <h1>{result}</h1>
+    </>
+);

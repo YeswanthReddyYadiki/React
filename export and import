@@ -1,0 +1,21 @@
+import ReactDOM from 'react-dom/client' 
+import course,{place,age,love} from './data'
+
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <>
+ <h1>{course}</h1>
+ <h1>{place}</h1>
+ <h1>{age}</h1>
+ <h1>{love}</h1>
+    </>
+);
+
+
+
+
+
+
+

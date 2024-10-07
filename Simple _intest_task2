@@ -1,0 +1,26 @@
+import ReactDOM from 'react-dom/client'
+let prc=prompt("enter a principle amount" )
+let rate=prompt("rate of interset")
+let total=prc*rate/100
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   
+    <>
+   
+ <table border='1px' align = 'center' width='400px' height='100px'>
+    <tr>
+        <th>principle amount</th>
+        <th>rate of interst</th>
+        <th>result</th>
+        </tr>
+        <tr>
+            <th>{prc}</th>
+            <th>{rate}</th>
+            <th>{total}</th>
+            </tr>
+            </table>          
+   
+       
+ 
+    </>
+);

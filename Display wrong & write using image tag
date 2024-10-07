@@ -1,0 +1,26 @@
+import ReactDOM from 'react-dom/client' 
+import pic from './images/tic.jpg'   
+const txt ="data:image/png;base64,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"
+let x =<img src="" alt=""/>
+var uid=prompt("Enter your userId")
+var pwd =prompt("Enter your Password")
+var result;
+if(uid=="yeswanth" && pwd==12345){
+   result= pic
+}
+else{
+  result= txt
+}
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <>
+ <img src={result} alt=""/>
+    </>
+);
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+import ReactDOM from 'react-dom/client'
+
+var students =["Yeswanth ","Kadapa ","Pulivendula ","Inagalur"]
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <>
+   {students}
+   <ol>
+    <li>{students[0]}</li>
+    <li>{students[1]}</li>
+    <li>{students[2]}</li>
+    <li>{students[3]}</li>
+   </ol>
+    </>
+);

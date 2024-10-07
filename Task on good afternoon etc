@@ -1,0 +1,19 @@
+import ReactDOM from 'react-dom/client'
+var obj=new Date()
+let h=obj.getHours()
+let result;
+if(h<=12){
+   result="Good Morning"
+}
+else if(h>=12 && h<=17){
+    result="Good Afternoon"
+}
+else if(h>17){
+    result="Good Evining"
+}
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <>
+   <h1>{result}</h1>
+    </>
+);

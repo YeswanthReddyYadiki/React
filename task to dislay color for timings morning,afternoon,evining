@@ -1,0 +1,24 @@
+import ReactDOM from 'react-dom/client'
+var obj=new Date()
+let h=obj.getHours()
+let result;
+let clr={}
+if(h<12){
+   result=" Good morning"
+  clr. color="orange"
+}
+else if(h>=12 && h<=17){
+   result=" Good afternoon"
+  clr. color="red"
+}
+else if(h>17){
+    result=" Good evining"
+  clr. color="black"
+}
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <>
+   <h1 style={clr}>{result}</h1>
+    </>
+);
+

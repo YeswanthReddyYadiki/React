@@ -1,0 +1,64 @@
+import ReactDOM from 'react-dom/client' 
+import  '../node_modules/bootstrap/dist/css/bootstrap.css'
+const pic ="https://i.pinimg.com/originals/a6/e7/46/a6e7468371ba3b3c3dc212b3ef54cd9c.jpg"
+const pic1="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_iyk9QFoxquBEKTD3aYRsk0kUdCxLHrtaJA&s"
+
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <>   
+
+<div className="container mt-3 ">
+<div className="row">
+    <div className="col-md-6 border  ">
+    <p style={{fontFamily:'cursive',marginTop:30}}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore iusto autem facilis quibusdam doloremque nulla incidunt expedita, ab animi magni mollitia rerum ullam eius corrupti atque, temporibus ea quae? Natus exercitationem cupiditate delectus architecto ex laudantium vero inventore consequuntur. Fugiat rem dolores suscipit assumenda laborum neque harum? Aliquid, deleniti debitis.</p>
+    </div>
+    <div className="col-md-6 border">
+    <h1 align="center">Full Stack</h1>
+        <ul className="list-group" >
+            <li className="list-group-item border-white"style={{fontFamily:'cursive'}}>html</li>
+            <li className="list-group-item border-white"style={{fontFamily:'cursive'}}>css</li>
+            <li className="list-group-item border-white"style={{fontFamily:'cursive'}}>javascript</li>
+            <li className="list-group-item border-white"style={{fontFamily:'cursive'}}>react</li>
+        </ul>
+    </div>
+  
+    </div>
+
+<div className="row">
+
+    <div className="col-md-12 border ">
+    <p style={{fontFamily:'cursive',}}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore iusto autem facilis quibusdam doloremque nulla incidunt expedita, ab animi magni mollitia rerum ullam eius corrupti atque, temporibus ea quae? Natus exercitationem cupiditate delectus architecto ex laudantium vero inventore consequuntur. Fugiat rem dolores suscipit assumenda laborum neque harum? Aliquid, deleniti debitis.
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore iusto autem facilis quibusdam doloremque nulla incidunt expedita, ab animi magni mollitia rerum ullam eius corrupti atque, temporibus ea quae? Natus exercitationem cupiditate delectus architecto ex laudantium vero inventore consequuntur. Fugiat rem dolores suscipit assumenda laborum neque harum? Aliquid, deleniti debitis.
+    </p>
+    </div>
+    
+    </div>
+    <div className="row">
+        <div className="col-md-4 border ">
+            <img src={pic} alt='' className='img-fluid'/>
+        </div>
+        <div className="col-md-4 border ">
+            <p style={{fontFamily:'cursive',marginTop:20}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt id debitis, sed maiores ducimus maxime soluta explicabo et nisi, sint neque nobis obcaecati adipisci odio? Neque, quia. Qui adipisci labore quidem delectus sed, quas ex repudiandae reprehenderit vel! Veritatis, blanditiis.
+            adipisci labore quidem.
+            </p>
+        </div>
+        <div className="col-md-4 border  ">
+        <img src={pic1} alt='' className='img-fluid w-100'/>
+        </div>
+      
+        </div>
+    </div> 
+
+    </>
+);
+                                                                                                                                             
+
+
+
+
+
+
+
+

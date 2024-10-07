@@ -1,0 +1,12 @@
+import ReactDOM from 'react-dom/client'
+let course=prompt("Enter String")
+var num1=20
+var num2=30
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+
+     <>
+     <h1>React is good {course}</h1>
+   
+     </>
+);

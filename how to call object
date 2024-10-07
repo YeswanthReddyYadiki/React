@@ -1,0 +1,13 @@
+import ReactDOM from 'react-dom/client'
+
+var person ={
+    name :"Yeswanth",
+    place :"Inagalur",
+    age :22
+}
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <>
+  <h1>{person.name+" "+person.place+" "+person.age}</h1>
+    </>
+);

@@ -1,0 +1,13 @@
+import ReactDOM from 'react-dom/client'
+let course="Yeswanth"
+var num1=20
+var num2=30
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+
+     <>
+     <h1>React is good {course}</h1>
+     <h1>First number ={num1} <br/> Second number ={num2} </h1>
+     <h1>20 + 30 ={num1 + num2}</h1>
+     </>
+);
