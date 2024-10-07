@@ -1,0 +1,28 @@
+li{
+   list-style: none;
+   background-color: rgb(210, 30, 195);
+   text-align: center;
+   width: 100%;
+   color: rgb(13, 255, 0);
+   line-height: 50px;
+}
+.yes{
+    height: 400px;
+    width: 400px;
+    background-color: crimson;
+    margin: auto;
+}
+li:nth-child(odd){
+    color: red;
+}
+li:nth-child(even){
+    color: green;
+}
+.yes1{
+    background-color: rgb(255, 0, 251);
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    color: rgb(231, 255, 15);
+}
+ 
